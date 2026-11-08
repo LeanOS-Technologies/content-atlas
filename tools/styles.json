@@ -1,0 +1,553 @@
+{
+  "description": "Workbook styling applied by render.py on every render. base: the look every listed sheet shares (title, description, header, body grid, the line that closes a group, grade colours). Per workbook, per sheet ('*' = every sheet of the workbook): tab colour; `by` names the column whose value groups the rows (`colors`, or `colors_from` a space sheet); cells in `columns` take the group colour and a strong line closes each group; `bold` columns anchor each row; `freeze` is the first scrolling cell; `lead` columns are the row labels of a grid, every other column is a grid cell coloured by its value (`grid`: base grades, or own `values`), with a narrow rotated header; `text_width` sets wide text cells; `tab_only` keeps the sheet's own layout.",
+  "base": {
+    "title_size": 14,
+    "description_color": "FF4B5563",
+    "header_fill": "FF1F2937",
+    "header_font": "FFFFFFFF",
+    "body_size": 10,
+    "grid": "FFE5E7EB",
+    "group_line": "FF374151",
+    "grades": {
+      "Primary": [
+        "FF4338CA",
+        "FFFFFFFF"
+      ],
+      "Secondary": [
+        "FFA5B4FC",
+        "FF1E1B4B"
+      ],
+      "Fit": [
+        "FFE0E7FF",
+        "FF1E1B4B"
+      ]
+    },
+    "grid_width": 4.5
+  },
+  "space": {
+    "Customer States": {
+      "tab": "FF2563EB",
+      "by": "Funnel",
+      "columns": [
+        "ID",
+        "Funnel"
+      ],
+      "bold": [
+        "State"
+      ],
+      "freeze": "E4",
+      "colors": {
+        "TOFU": "FFDBEAFE",
+        "MOFU": "FFE9D5FF",
+        "BOFU": "FFFCE7F3",
+        "Post-purchase": "FFDCFCE7",
+        "Any": "FFF3F4F6"
+      }
+    },
+    "Formats": {
+      "tab": "FFD97706",
+      "by": "Format family",
+      "columns": [
+        "ID",
+        "Format family"
+      ],
+      "bold": [
+        "Name"
+      ],
+      "freeze": "C4",
+      "colors": {
+        "Written / Text": "FFDBEAFE",
+        "Visual / Static": "FFFEF3C7",
+        "Audio": "FFFCE7F3",
+        "Video": "FFDCFCE7",
+        "Interactive": "FFE0E7FF",
+        "Conversational / Transactional": "FFCCFBF1",
+        "Experiential / Event": "FFFFEDD5",
+        "Social Proof / UGC": "FFF3E8FF",
+        "Physical / Print": "FFE0F2FE",
+        "Paid Creative — cross-format": "FFFEE2E2"
+      }
+    },
+    "Channels": {
+      "tab": "FF059669",
+      "by": "Channel family",
+      "columns": [
+        "ID",
+        "Channel family"
+      ],
+      "bold": [
+        "Name"
+      ],
+      "freeze": "C4",
+      "colors": {
+        "Web / Site": "FFDBEAFE",
+        "App / Product": "FFE0E7FF",
+        "Email": "FFFEF3C7",
+        "Messaging": "FFFCE7F3",
+        "Social": "FFDCFCE7",
+        "Community": "FFCCFBF1",
+        "Search": "FFFFEDD5",
+        "Display / programmatic": "FFF3E8FF",
+        "Video / audio": "FFE0F2FE",
+        "Influencer / creator": "FFFEE2E2",
+        "Sponsorship": "FFECFCCB",
+        "Retail media": "FFF5F5F4",
+        "Press / media": "FFFAE8FF",
+        "Listings & reviews": "FFD1FAE5",
+        "Partnerships": "FFFFE4E6",
+        "Offline / real-world": "FFFEF9C3",
+        "1:1": "FFE7E5E4",
+        "Internal": "FFF3F4F6"
+      }
+    },
+    "Ownership": {
+      "tab": "FF7C3AED",
+      "columns": [],
+      "bold": [
+        "Type"
+      ],
+      "freeze": "C5"
+    },
+    "Surfaces": {
+      "tab": "FFDB2777",
+      "by": "Typical funnel fit",
+      "columns": [
+        "ID",
+        "Typical funnel fit"
+      ],
+      "bold": [
+        "Surface"
+      ],
+      "freeze": "C4",
+      "colors": {
+        "TOFU": "FFDBEAFE",
+        "MOFU": "FFE9D5FF",
+        "BOFU": "FFFCE7F3",
+        "Post-purchase": "FFDCFCE7",
+        "Any": "FFF3F4F6"
+      }
+    },
+    "Audiences": {
+      "tab": "FF0D9488",
+      "by": "Audience group",
+      "columns": [
+        "ID",
+        "Audience group"
+      ],
+      "bold": [
+        "Audience"
+      ],
+      "freeze": "C4",
+      "colors": {
+        "Prospects": "FFDBEAFE",
+        "Customers": "FFDCFCE7",
+        "Partners": "FFFEF3C7",
+        "Employees": "FFF3E8FF"
+      }
+    },
+    "Metrics": {
+      "tab": "FF4B5563",
+      "columns": [],
+      "bold": [
+        "Metric name"
+      ],
+      "freeze": "C4"
+    }
+  },
+  "fit_maps": {
+    "Format State Fit": {
+      "tab": "FFD97706",
+      "by": "Format family",
+      "colors_from": "Formats",
+      "columns": [
+        "Key",
+        "Format family"
+      ],
+      "bold": [
+        "Format"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Format",
+        "Format family"
+      ],
+      "grid": "grades"
+    },
+    "Format Ownership Fit": {
+      "tab": "FFD97706",
+      "by": "Format family",
+      "colors_from": "Formats",
+      "columns": [
+        "Key",
+        "Format family"
+      ],
+      "bold": [
+        "Format"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Format",
+        "Format family"
+      ],
+      "text_width": 30
+    },
+    "Channel State Fit": {
+      "tab": "FF059669",
+      "by": "Channel family",
+      "colors_from": "Channels",
+      "columns": [
+        "Key",
+        "Channel family"
+      ],
+      "bold": [
+        "Channel"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Channel",
+        "Channel family"
+      ],
+      "grid": "grades"
+    },
+    "Ownership State Fit": {
+      "tab": "FF7C3AED",
+      "bold": [
+        "Key"
+      ],
+      "freeze": "B4",
+      "lead": [
+        "Key"
+      ],
+      "text_width": 22
+    },
+    "Format Channel Fit": {
+      "tab": "FFD97706",
+      "by": "Format family",
+      "colors_from": "Formats",
+      "columns": [
+        "Key",
+        "Format family"
+      ],
+      "bold": [
+        "Format"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Format",
+        "Format family"
+      ],
+      "grid": "grades"
+    },
+    "Format Surface Fit": {
+      "tab": "FFD97706",
+      "by": "Format family",
+      "colors_from": "Formats",
+      "columns": [
+        "Key",
+        "Format family"
+      ],
+      "bold": [
+        "Format"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Format",
+        "Format family"
+      ],
+      "grid": "grades"
+    },
+    "Channel Surface Fit": {
+      "tab": "FF059669",
+      "by": "Channel family",
+      "colors_from": "Channels",
+      "columns": [
+        "Key",
+        "Channel family"
+      ],
+      "bold": [
+        "Channel"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Channel",
+        "Channel family"
+      ],
+      "grid": "grades"
+    },
+    "State Surface Fit": {
+      "tab": "FFDB2777",
+      "by": "Typical funnel fit",
+      "colors": {
+        "TOFU": "FFDBEAFE",
+        "MOFU": "FFE9D5FF",
+        "BOFU": "FFFCE7F3",
+        "Post-purchase": "FFDCFCE7",
+        "Any": "FFF3F4F6"
+      },
+      "columns": [
+        "Key",
+        "Typical funnel fit"
+      ],
+      "bold": [
+        "Key"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Surface family",
+        "Typical funnel fit"
+      ],
+      "grid": "grades"
+    },
+    "Audience State Fit": {
+      "tab": "FF0D9488",
+      "by": "Audience group",
+      "colors_from": "Audiences",
+      "columns": [
+        "Key",
+        "Audience group"
+      ],
+      "bold": [
+        "Key"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Audience group",
+        "Buying role"
+      ],
+      "grid": "grades"
+    },
+    "Audience Format Fit": {
+      "tab": "FF0D9488",
+      "by": "Audience group",
+      "colors_from": "Audiences",
+      "columns": [
+        "Key",
+        "Audience group"
+      ],
+      "bold": [
+        "Key"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Audience group",
+        "Buying role"
+      ],
+      "grid": "grades"
+    },
+    "Audience Channel Fit": {
+      "tab": "FF0D9488",
+      "by": "Audience group",
+      "colors_from": "Audiences",
+      "columns": [
+        "Key",
+        "Audience group"
+      ],
+      "bold": [
+        "Key"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Audience group",
+        "Buying role"
+      ],
+      "grid": "grades"
+    }
+  },
+  "transformations": {
+    "Format transformations": {
+      "tab": "FFD97706",
+      "by": "Format family",
+      "colors_from": "Formats",
+      "columns": [
+        "Key",
+        "Format family"
+      ],
+      "bold": [
+        "Format"
+      ],
+      "freeze": "D4",
+      "lead": [
+        "Key",
+        "Format",
+        "Format family"
+      ],
+      "grid": {
+        "Down": [
+          "FF93C5FD",
+          "FF0C4A6E"
+        ],
+        "Up": [
+          "FF86EFAC",
+          "FF14532D"
+        ],
+        "Across": [
+          "FFFDE68A",
+          "FF713F12"
+        ]
+      }
+    },
+    "Candidates": {
+      "tab": "FFD97706",
+      "by": "Marker",
+      "colors": {
+        "Down": "FFDBEAFE",
+        "Up": "FFDCFCE7",
+        "Across": "FFFEF9C3"
+      },
+      "columns": [
+        "Marker"
+      ],
+      "bold": [
+        "Source format"
+      ],
+      "freeze": "C4"
+    },
+    "Content unit ↔ Transformation": {
+      "tab": "FF475569",
+      "freeze": "C4"
+    },
+    "Content unit ↔ Repurposing": {
+      "tab": "FF475569",
+      "freeze": "C4"
+    }
+  },
+  "place": {
+    "Content Units": {
+      "tab": "FF334155",
+      "bold": [
+        "Content unit name"
+      ],
+      "freeze": "D4"
+    },
+    "Full matrix": {
+      "tab": "FF334155",
+      "freeze": "D3",
+      "bold": [
+        "Content unit name"
+      ],
+      "column_groups": [
+        "FFF3F4F6",
+        "FFDBEAFE",
+        "FFFEF3C7",
+        "FFD1FAE5",
+        "FFEDE9FE",
+        "FFFCE7F3",
+        "FFCCFBF1",
+        "FFE5E7EB"
+      ]
+    },
+    "Compact matrix": {
+      "tab": "FF334155",
+      "bold": [
+        "Content unit name"
+      ],
+      "freeze": "C4"
+    },
+    "Content unit ↔ Recipe": {
+      "tab": "FF475569",
+      "freeze": "C4"
+    }
+  },
+  "recipes": {
+    "Unaware": {
+      "tab": "FF2563EB",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Problem-aware": {
+      "tab": "FF2563EB",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Solution-aware": {
+      "tab": "FF7C3AED",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Product-aware": {
+      "tab": "FF7C3AED",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Decision": {
+      "tab": "FFDB2777",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Purchase": {
+      "tab": "FFDB2777",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Onboarding": {
+      "tab": "FF16A34A",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Retention": {
+      "tab": "FF16A34A",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Expansion": {
+      "tab": "FF16A34A",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Resurrection": {
+      "tab": "FF16A34A",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Advocacy": {
+      "tab": "FF16A34A",
+      "bold": [
+        "Recipe"
+      ],
+      "freeze": "F4"
+    },
+    "Possibilities": {
+      "tab": "FF0F766E",
+      "by": "State",
+      "colors_from": "stage_funnel",
+      "columns": [
+        "State"
+      ],
+      "bold": [
+        "Value"
+      ],
+      "freeze": "D4",
+      "grade_column": "Grade"
+    }
+  }
+}

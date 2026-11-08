@@ -1,0 +1,6 @@
+{
+  "name": "existing-b2b-owned",
+  "ownership": ["Owned", "Earned", "Shared"],
+  "track": "B2B",
+  "min_grade": "Secondary"
+}

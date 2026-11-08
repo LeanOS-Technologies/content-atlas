@@ -1,0 +1,232 @@
+{
+  "description": "What each ID prefix identifies. An ID is given once, in row order, when a row is created. It is never reused or renumbered; names can change, IDs do not. A new row takes the next number.",
+  "data_version": "23f57a9207b7",
+  "prefixes": [
+    {
+      "prefix": "CS",
+      "identifies": "Customer state",
+      "sheet": "Customer States",
+      "column": "ID",
+      "pattern": "^CS-\\d{2}$",
+      "first_id": "CS-01"
+    },
+    {
+      "prefix": "FM",
+      "identifies": "Format",
+      "sheet": "Formats",
+      "column": "ID",
+      "pattern": "^FM-\\d{3}$",
+      "first_id": "FM-001"
+    },
+    {
+      "prefix": "CH",
+      "identifies": "Channel",
+      "sheet": "Channels",
+      "column": "ID",
+      "pattern": "^CH-\\d{3}$",
+      "first_id": "CH-001"
+    },
+    {
+      "prefix": "OW",
+      "identifies": "Ownership type",
+      "sheet": "Ownership",
+      "column": "ID",
+      "pattern": "^OW-\\d{2}$",
+      "first_id": "OW-01"
+    },
+    {
+      "prefix": "SF",
+      "identifies": "Surface",
+      "sheet": "Surfaces",
+      "column": "ID",
+      "pattern": "^SF-\\d{3}$",
+      "first_id": "SF-001"
+    },
+    {
+      "prefix": "AU",
+      "identifies": "Audience (an audience group in a buying role)",
+      "sheet": "Audiences",
+      "column": "ID",
+      "pattern": "^AU-\\d{2}$",
+      "first_id": "AU-01"
+    },
+    {
+      "prefix": "CU",
+      "identifies": "Content unit (a row of Content Units); a product uses its own id_prefix",
+      "sheet": "Content Units",
+      "column": "ID",
+      "pattern": "^[A-Z]{2,5}-\\d{3}$",
+      "first_id": "CU-001"
+    },
+    {
+      "prefix": "MET",
+      "identifies": "Metric",
+      "sheet": "Metrics",
+      "column": "Metric ID",
+      "pattern": "^MET-\\d{3}$",
+      "first_id": "MET-001"
+    },
+    {
+      "prefix": "AW-, AN-, C-, B-",
+      "identifies": "Recipe (AW = awareness, any track; AN = any track, by state; C = B2C; B = B2B)",
+      "column": "Recipe ID",
+      "pattern": "^(AW-\\d{2}|(AN|B|C)-[A-Z]{2}(-\\d+)?)$",
+      "first_id": "AW-01",
+      "numbered": false,
+      "sheets": [
+        "Unaware",
+        "Problem-aware",
+        "Solution-aware",
+        "Product-aware",
+        "Decision",
+        "Purchase",
+        "Onboarding",
+        "Retention",
+        "Expansion",
+        "Resurrection",
+        "Advocacy"
+      ]
+    }
+  ],
+  "channel_allowed_values": [
+    {
+      "attribute": "Ownership",
+      "values": [
+        "owned",
+        "earned",
+        "paid",
+        "shared"
+      ],
+      "column": "Ownership"
+    },
+    {
+      "attribute": "Control",
+      "values": [
+        "full",
+        "partial",
+        "none"
+      ],
+      "column": "Control"
+    },
+    {
+      "attribute": "Audience ownership",
+      "values": [
+        "yours",
+        "platform's",
+        "shared",
+        "third party"
+      ],
+      "column": "Ownership of audience"
+    },
+    {
+      "attribute": "Data access",
+      "values": [
+        "full",
+        "partial",
+        "none"
+      ],
+      "column": "Data access"
+    },
+    {
+      "attribute": "Cost model",
+      "values": [
+        "fixed",
+        "variable",
+        "free",
+        "rev-share"
+      ],
+      "column": "Cost model"
+    },
+    {
+      "attribute": "Compounding",
+      "values": [
+        "yes",
+        "no"
+      ],
+      "column": "Compounding"
+    },
+    {
+      "attribute": "Scalability",
+      "values": [
+        "linear",
+        "sub-linear",
+        "capped"
+      ],
+      "column": "Scalability"
+    },
+    {
+      "attribute": "Risk",
+      "values": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "column": "Risk"
+    },
+    {
+      "attribute": "Trust level",
+      "values": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "column": "Trust level"
+    },
+    {
+      "attribute": "Speed to activate",
+      "values": [
+        "instant",
+        "days",
+        "weeks",
+        "months"
+      ],
+      "column": "Speed to activate"
+    },
+    {
+      "attribute": "Persistence",
+      "values": [
+        "permanent",
+        "durable",
+        "ephemeral"
+      ],
+      "column": "Persistence"
+    },
+    {
+      "attribute": "Gatekeeper",
+      "values": [
+        "none",
+        "algorithm",
+        "editor",
+        "partner"
+      ],
+      "column": "Gatekeeper"
+    },
+    {
+      "attribute": "Reversibility",
+      "values": [
+        "easy",
+        "hard",
+        "locked"
+      ],
+      "column": "Reversibility"
+    },
+    {
+      "attribute": "Measurement",
+      "values": [
+        "full",
+        "partial",
+        "dark"
+      ],
+      "column": "Measurability"
+    },
+    {
+      "attribute": "Dependency",
+      "values": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "column": "Dependency"
+    }
+  ]
+}

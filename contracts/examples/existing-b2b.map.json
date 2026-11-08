@@ -1,0 +1,21 @@
+{
+  "name": "existing-b2b",
+  "requirement": "B2B tool. We already publish a blog, a newsletter, LinkedIn posts and two case studies. What do we have, and where can it go?",
+  "pieces": [
+    {"id": "EX-1", "name": "Weekly blog article", "where": "company blog", "basis": "explains a problem the reader has; search traffic",
+     "state": "Problem-aware", "format": "Written / Text: Blog post / article", "channel": "Owned: Blog", "surface": "Blog page",
+     "audiences": ["Prospect user", "Prospect champion"], "track": "B2B"},
+    {"id": "EX-2", "name": "Monthly newsletter", "where": "email list", "basis": "sent to subscribers who signed up from the blog",
+     "state": "Solution-aware", "format": "Written / Text: Newsletter / email", "channel": "Owned: Newsletter", "surface": "Newsletter",
+     "audiences": ["Prospect user", "Prospect champion"], "track": "B2B"},
+    {"id": "EX-3", "name": "LinkedIn company posts", "where": "company page", "basis": "short posts to followers",
+     "state": "Unaware", "format": "Written / Text: Social post / caption / thread", "channel": "Owned: LinkedIn page", "surface": "Feed card",
+     "audiences": ["Prospect user"], "track": "B2B"},
+    {"id": "EX-4", "name": "Customer case study", "where": "website, case studies section", "basis": "one customer's results, read by evaluators",
+     "state": "Product-aware", "format": "Written / Text: Case study", "channel": "Owned: Resource / content hub", "surface": "Case study page",
+     "audiences": ["Prospect buyer", "Prospect champion"], "track": "B2B"},
+    {"id": "EX-5", "name": "Case study on the blog", "where": "company blog", "basis": "same story posted as a blog article",
+     "state": "Unaware", "format": "Written / Text: Case study", "channel": "Owned: Blog", "surface": "Blog page",
+     "audiences": ["Prospect buyer"], "track": "B2B"}
+  ]
+}

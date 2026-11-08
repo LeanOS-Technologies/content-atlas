@@ -1,0 +1,5 @@
+{
+  "name": "b2b-decision",
+  "requirement": "B2B tool. Buyers are comparing us with two competitors and deciding this quarter. What can we do for them?",
+  "anchors": {"states": ["Decision"], "audiences": ["Prospect buyer"]}
+}

@@ -1,0 +1,130 @@
+{
+  "minimum_viable": {
+    "Formats": 12,
+    "Channels": 12,
+    "Funnel stages": 5,
+    "Ownership": 4,
+    "Surfaces": 20
+  },
+  "heavy_surface": 5,
+  "ownership_reading": {
+    "Paid": "Risk",
+    "Owned": "Moat",
+    "Earned": "Trust",
+    "Shared": "Leverage"
+  },
+  "required_tags": [
+    "Format",
+    "Primary channel",
+    "State",
+    "Primary ownership",
+    "Primary surface",
+    "Desired response",
+    "Primary metric"
+  ],
+  "entry_source_channels": {
+    "Earned: Search engine organic results (SEO is earned-ish)": "Search",
+    "Shared / hybrid: ChatGPT": "AI assistant",
+    "Shared / hybrid: Perplexity": "AI assistant",
+    "Shared / hybrid: Gemini": "AI assistant"
+  },
+  "awareness_rule_out": {
+    "unaware": {
+      "surface_actions": [
+        "fill in",
+        "pay"
+      ],
+      "owned_channel_families": [
+        "Email",
+        "App / Product"
+      ]
+    },
+    "unaware_and_problem_aware": {
+      "format_names": [
+        "Case study",
+        "ROI tool",
+        "Whitepaper",
+        "Documentation / API docs",
+        "Datasheet"
+      ],
+      "surfaces": [
+        "Pricing page"
+      ]
+    }
+  },
+  "metrics": [
+    "Reach",
+    "Traffic",
+    "MQL count",
+    "SQL count",
+    "Content-attributed revenue",
+    "Customer retention rate",
+    "Referral rate"
+  ],
+  "views": [
+    {
+      "view": "By stage",
+      "filter": "stage = X",
+      "use": "Funnel audit",
+      "columns": "Journey stage, State"
+    },
+    {
+      "view": "By channel",
+      "filter": "channel = X",
+      "use": "Channel audit",
+      "columns": "Primary channel"
+    },
+    {
+      "view": "By ownership",
+      "filter": "ownership = X",
+      "use": "Risk audit",
+      "columns": "Primary ownership"
+    },
+    {
+      "view": "By format",
+      "filter": "format = X",
+      "use": "Production planning",
+      "columns": "Format, Format family"
+    },
+    {
+      "view": "By surface",
+      "filter": "surface = X",
+      "use": "UX audit",
+      "columns": "Surface"
+    },
+    {
+      "view": "By metric",
+      "filter": "metric = X",
+      "use": "Performance review",
+      "columns": "Primary metric"
+    },
+    {
+      "view": "By vertical",
+      "filter": "vertical = X",
+      "use": "Workload",
+      "columns": "Vertical"
+    }
+  ],
+  "cadence": [
+    {
+      "cadence": "Weekly",
+      "review": "Production, status, blockers",
+      "where": null
+    },
+    {
+      "cadence": "Monthly",
+      "review": "Performance by stage, channel, format",
+      "where": "Audits: stage gaps, by metric; registry counts"
+    },
+    {
+      "cadence": "Quarterly",
+      "review": "Portfolio balance, ownership mix, gaps, mismatches",
+      "where": "Ownership tab, Audits: format, channel, surface, mismatch sections"
+    },
+    {
+      "cadence": "Annually",
+      "review": "Full taxonomy review, retire dead axes, add new ones",
+      "where": "Schema axes table, registry sheets"
+    }
+  ]
+}

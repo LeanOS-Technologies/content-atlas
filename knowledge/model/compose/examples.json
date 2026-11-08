@@ -1,0 +1,597 @@
+{
+  "name": "Examples",
+  "tables": [
+    {
+      "title": "Stage × format × channel × surface example: “why onboarding matters”",
+      "columns": [
+        "Stage",
+        "Format",
+        "Channel",
+        "Surface",
+        "CTA"
+      ],
+      "rows": [
+        {
+          "Stage": "Unaware",
+          "Format": "Short video",
+          "Channel": "TikTok",
+          "Surface": "For You feed",
+          "CTA": "Watch"
+        },
+        {
+          "Stage": "Problem-aware",
+          "Format": "Blog post",
+          "Channel": "SEO",
+          "Surface": "Search result",
+          "CTA": "Read"
+        },
+        {
+          "Stage": "Solution-aware",
+          "Format": "Guide",
+          "Channel": "Owned blog",
+          "Surface": "Resource hub",
+          "CTA": "Download"
+        },
+        {
+          "Stage": "Product-aware",
+          "Format": "Case study",
+          "Channel": "Email",
+          "Surface": "Newsletter",
+          "CTA": "Book demo"
+        },
+        {
+          "Stage": "Decision",
+          "Format": "ROI calculator",
+          "Channel": "Website",
+          "Surface": "Pricing page",
+          "CTA": "Start trial"
+        },
+        {
+          "Stage": "Onboarding",
+          "Format": "Checklist",
+          "Channel": "In-app",
+          "Surface": "Empty state",
+          "CTA": "Complete setup"
+        },
+        {
+          "Stage": "Retention",
+          "Format": "How-to",
+          "Channel": "Help center",
+          "Surface": "Article page",
+          "CTA": "Use feature"
+        },
+        {
+          "Stage": "Advocacy",
+          "Format": "Referral link",
+          "Channel": "Email",
+          "Surface": "Referral dashboard",
+          "CTA": "Invite"
+        }
+      ]
+    },
+    {
+      "title": "Worked example: one topic across the matrix (“Why onboarding matters”)",
+      "columns": [
+        "ID",
+        "Format",
+        "Channel",
+        "Stage",
+        "Ownership",
+        "Surface",
+        "CTA",
+        "Metric"
+      ],
+      "rows": [
+        {
+          "ID": "A1",
+          "Format": "Short video",
+          "Channel": "TikTok",
+          "Stage": "Unaware",
+          "Ownership": "Owned",
+          "Surface": "For You feed",
+          "CTA": "Watch",
+          "Metric": "Reach"
+        },
+        {
+          "ID": "A2",
+          "Format": "Blog post",
+          "Channel": "SEO",
+          "Stage": "Problem",
+          "Ownership": "Owned",
+          "Surface": "Search result",
+          "CTA": "Read",
+          "Metric": "Traffic"
+        },
+        {
+          "ID": "A3",
+          "Format": "Guide",
+          "Channel": "Blog",
+          "Stage": "Solution",
+          "Ownership": "Owned",
+          "Surface": "Resource hub",
+          "CTA": "Download",
+          "Metric": "MQL"
+        },
+        {
+          "ID": "A4",
+          "Format": "Case study",
+          "Channel": "Email",
+          "Stage": "Product",
+          "Ownership": "Owned",
+          "Surface": "Newsletter",
+          "CTA": "Book demo",
+          "Metric": "SQL"
+        },
+        {
+          "ID": "A5",
+          "Format": "ROI calculator",
+          "Channel": "Website",
+          "Stage": "Decision",
+          "Ownership": "Owned",
+          "Surface": "Pricing page",
+          "CTA": "Start trial",
+          "Metric": "Conversion"
+        },
+        {
+          "ID": "A6",
+          "Format": "Checklist",
+          "Channel": "In-app",
+          "Stage": "Onboarding",
+          "Ownership": "Owned",
+          "Surface": "Empty state",
+          "CTA": "Complete step",
+          "Metric": "Activation"
+        },
+        {
+          "ID": "A7",
+          "Format": "How-to",
+          "Channel": "Help center",
+          "Stage": "Retention",
+          "Ownership": "Owned",
+          "Surface": "Article",
+          "CTA": "Use feature",
+          "Metric": "Engagement"
+        },
+        {
+          "ID": "A8",
+          "Format": "Referral link",
+          "Channel": "Email",
+          "Stage": "Advocacy",
+          "Ownership": "Owned + shared",
+          "Surface": "Referral dashboard",
+          "CTA": "Refer",
+          "Metric": "Referral rate"
+        },
+        {
+          "ID": "A9",
+          "Format": "Review",
+          "Channel": "G2",
+          "Stage": "Product",
+          "Ownership": "Earned",
+          "Surface": "Review profile",
+          "CTA": "—",
+          "Metric": "Rating"
+        },
+        {
+          "ID": "A10",
+          "Format": "Search ad",
+          "Channel": "Google",
+          "Stage": "Decision",
+          "Ownership": "Paid",
+          "Surface": "SERP",
+          "CTA": "Buy",
+          "Metric": "CPA"
+        },
+        {
+          "ID": "A11",
+          "Format": "Co-webinar",
+          "Channel": "Partner",
+          "Stage": "Solution",
+          "Ownership": "Shared",
+          "Surface": "Registration",
+          "CTA": "Register",
+          "Metric": "Leads"
+        },
+        {
+          "ID": "A12",
+          "Format": "Retarget ad",
+          "Channel": "Meta",
+          "Stage": "Resurrection",
+          "Ownership": "Paid",
+          "Surface": "Feed",
+          "CTA": "Come back",
+          "Metric": "Reactivation"
+        }
+      ]
+    },
+    {
+      "title": "Worked example: awareness for a B2B SaaS (project management tool, new category, $10k/month, founder can write, target startup ops leads)",
+      "columns": [
+        "Recipe",
+        "Format",
+        "Channel",
+        "Ownership",
+        "Surface",
+        "CTA",
+        "Metric"
+      ],
+      "rows": [
+        {
+          "Recipe": "SEO",
+          "Format": "Blog post",
+          "Channel": "Search",
+          "Ownership": "Owned",
+          "Surface": "SERP",
+          "CTA": "Read",
+          "Metric": "Traffic"
+        },
+        {
+          "Recipe": "Authority",
+          "Format": "LinkedIn post",
+          "Channel": "LinkedIn",
+          "Ownership": "Owned social",
+          "Surface": "Feed",
+          "CTA": "Read",
+          "Metric": "Engagement"
+        },
+        {
+          "Recipe": "Borrowed trust",
+          "Format": "Podcast guesting",
+          "Channel": "Podcasts",
+          "Ownership": "Earned",
+          "Surface": "Player",
+          "CTA": "Listen",
+          "Metric": "Downloads"
+        },
+        {
+          "Recipe": "Community",
+          "Format": "Reddit comments",
+          "Channel": "Reddit",
+          "Ownership": "Earned",
+          "Surface": "Thread",
+          "CTA": "Engage",
+          "Metric": "Mentions"
+        },
+        {
+          "Recipe": "Social proof",
+          "Format": "G2 reviews",
+          "Channel": "G2",
+          "Ownership": "Earned",
+          "Surface": "Profile",
+          "CTA": "—",
+          "Metric": "Rating"
+        },
+        {
+          "Recipe": "Reach",
+          "Format": "Short video",
+          "Channel": "LinkedIn / TikTok",
+          "Ownership": "Owned + paid",
+          "Surface": "Feed",
+          "CTA": "Watch",
+          "Metric": "Reach"
+        }
+      ]
+    },
+    {
+      "title": "Worked example: awareness for a B2B SaaS — budget split",
+      "columns": [
+        "Budget split",
+        "Item"
+      ],
+      "rows": [
+        {
+          "Budget split": "$0",
+          "Item": "SEO, LinkedIn, Reddit, G2, podcast outreach"
+        },
+        {
+          "Budget split": "$3k",
+          "Item": "Paid boost on best organic social"
+        },
+        {
+          "Budget split": "$3k",
+          "Item": "LinkedIn ads retargeting engagers"
+        },
+        {
+          "Budget split": "$2k",
+          "Item": "Podcast sponsorships"
+        },
+        {
+          "Budget split": "$2k",
+          "Item": "Content production"
+        }
+      ]
+    },
+    {
+      "title": "Worked example: awareness for a B2B SaaS — why not",
+      "columns": [
+        "Why not",
+        "Reason"
+      ],
+      "rows": [
+        {
+          "Why not": "Gated ebook",
+          "Reason": "Friction too high"
+        },
+        {
+          "Why not": "Demo requests",
+          "Reason": "Intent too low"
+        },
+        {
+          "Why not": "Email",
+          "Reason": "No list yet"
+        },
+        {
+          "Why not": "Webinar",
+          "Reason": "No audience yet"
+        },
+        {
+          "Why not": "Case studies",
+          "Reason": "No customers yet"
+        }
+      ]
+    },
+    {
+      "title": "Worked example: awareness for a DTC skincare brand (visual product, $50k/month, women 18–34)",
+      "columns": [
+        "Recipe",
+        "Format",
+        "Channel",
+        "Ownership",
+        "Surface",
+        "CTA",
+        "Metric"
+      ],
+      "rows": [
+        {
+          "Recipe": "Reach",
+          "Format": "Short video",
+          "Channel": "TikTok, Reels",
+          "Ownership": "Owned + paid",
+          "Surface": "For You",
+          "CTA": "Watch",
+          "Metric": "Reach"
+        },
+        {
+          "Recipe": "Interrupt",
+          "Format": "Video ad",
+          "Channel": "Meta, TikTok",
+          "Ownership": "Paid",
+          "Surface": "Feed",
+          "CTA": "Watch",
+          "Metric": "CPM"
+        },
+        {
+          "Recipe": "Influencer",
+          "Format": "Sponsored post",
+          "Channel": "TikTok, IG",
+          "Ownership": "Paid + shared",
+          "Surface": "Feed",
+          "CTA": "Watch",
+          "Metric": "Reach"
+        },
+        {
+          "Recipe": "Meme",
+          "Format": "Meme / GIF",
+          "Channel": "X, IG",
+          "Ownership": "Owned",
+          "Surface": "Feed",
+          "CTA": "Share",
+          "Metric": "Shares"
+        },
+        {
+          "Recipe": "PR",
+          "Format": "Press release",
+          "Channel": "Beauty media",
+          "Ownership": "Earned",
+          "Surface": "Article",
+          "CTA": "Read",
+          "Metric": "Coverage"
+        },
+        {
+          "Recipe": "UGC",
+          "Format": "Repost",
+          "Channel": "IG",
+          "Ownership": "Earned",
+          "Surface": "Feed",
+          "CTA": "—",
+          "Metric": "Engagement"
+        }
+      ]
+    },
+    {
+      "title": "Worked example: awareness for a DTC skincare brand — budget split",
+      "columns": [
+        "Budget split",
+        "Item"
+      ],
+      "rows": [
+        {
+          "Budget split": "$20k",
+          "Item": "Paid social"
+        },
+        {
+          "Budget split": "$15k",
+          "Item": "Influencer"
+        },
+        {
+          "Budget split": "$10k",
+          "Item": "Content production"
+        },
+        {
+          "Budget split": "$5k",
+          "Item": "PR"
+        }
+      ]
+    },
+    {
+      "title": "Worked example: awareness for a DTC skincare brand — why not",
+      "columns": [
+        "Why not",
+        "Reason"
+      ],
+      "rows": [
+        {
+          "Why not": "SEO",
+          "Reason": "Low search volume for new brand"
+        },
+        {
+          "Why not": "Community",
+          "Reason": "No community yet"
+        },
+        {
+          "Why not": "Events",
+          "Reason": "Wrong format for DTC"
+        },
+        {
+          "Why not": "Email",
+          "Reason": "No list"
+        }
+      ]
+    },
+    {
+      "title": "Worked example: meal kit service — B2C track (consumers)",
+      "columns": [
+        "Stage",
+        "Recipe",
+        "Format",
+        "Channel",
+        "Ownership",
+        "CTA",
+        "Metric"
+      ],
+      "rows": [
+        {
+          "Stage": "Unaware",
+          "Recipe": "Scroll-stop",
+          "Format": "Short video",
+          "Channel": "TikTok, Reels",
+          "Ownership": "Owned + paid",
+          "CTA": "Watch",
+          "Metric": "Reach"
+        },
+        {
+          "Stage": "Problem",
+          "Recipe": "SEO",
+          "Format": "Blog",
+          "Channel": "Google",
+          "Ownership": "Owned",
+          "CTA": "Read",
+          "Metric": "Traffic"
+        },
+        {
+          "Stage": "Solution",
+          "Recipe": "Comparison",
+          "Format": "Video",
+          "Channel": "YouTube",
+          "Ownership": "Owned",
+          "CTA": "Watch",
+          "Metric": "Views"
+        },
+        {
+          "Stage": "Product",
+          "Recipe": "Reviews",
+          "Format": "Review page",
+          "Channel": "Site",
+          "Ownership": "Earned",
+          "CTA": "—",
+          "Metric": "Rating"
+        },
+        {
+          "Stage": "Decision",
+          "Recipe": "Offer",
+          "Format": "Discount",
+          "Channel": "Email, ads",
+          "Ownership": "Owned + paid",
+          "CTA": "Buy",
+          "Metric": "Conversion"
+        },
+        {
+          "Stage": "Onboard",
+          "Recipe": "Welcome",
+          "Format": "Email",
+          "Channel": "Email",
+          "Ownership": "Owned",
+          "CTA": "Cook",
+          "Metric": "Activation"
+        },
+        {
+          "Stage": "Retain",
+          "Recipe": "Tips",
+          "Format": "Email",
+          "Channel": "Email",
+          "Ownership": "Owned",
+          "CTA": "Reorder",
+          "Metric": "Repeat rate"
+        },
+        {
+          "Stage": "Advocate",
+          "Recipe": "Referral",
+          "Format": "Link",
+          "Channel": "Email, app",
+          "Ownership": "Owned + shared",
+          "CTA": "Refer",
+          "Metric": "Referral rate"
+        }
+      ]
+    },
+    {
+      "title": "Worked example: meal kit service — B2B track (offices, cafeterias)",
+      "columns": [
+        "Stage",
+        "Recipe",
+        "Format",
+        "Channel",
+        "Ownership",
+        "CTA",
+        "Metric"
+      ],
+      "rows": [
+        {
+          "Stage": "Awareness",
+          "Recipe": "Authority",
+          "Format": "LinkedIn post",
+          "Channel": "LinkedIn",
+          "Ownership": "Owned",
+          "CTA": "Read",
+          "Metric": "Engagement"
+        },
+        {
+          "Stage": "Consideration",
+          "Recipe": "Case study",
+          "Format": "PDF",
+          "Channel": "Email, site",
+          "Ownership": "Owned",
+          "CTA": "Book demo",
+          "Metric": "Leads"
+        },
+        {
+          "Stage": "Decision",
+          "Recipe": "Proposal",
+          "Format": "Deck",
+          "Channel": "Sales",
+          "Ownership": "Owned",
+          "CTA": "Sign",
+          "Metric": "Close rate"
+        },
+        {
+          "Stage": "Retention",
+          "Recipe": "Support",
+          "Format": "Docs",
+          "Channel": "Email, portal",
+          "Ownership": "Owned",
+          "CTA": "Use",
+          "Metric": "Retention"
+        },
+        {
+          "Stage": "Expansion",
+          "Recipe": "Upsell",
+          "Format": "Plan",
+          "Channel": "Sales",
+          "Ownership": "Owned",
+          "CTA": "Expand",
+          "Metric": "NRR"
+        }
+      ]
+    }
+  ]
+}
