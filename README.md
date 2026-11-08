@@ -47,9 +47,18 @@ Open your coding agent in the cloned folder and ask:
 
 > Read AGENTS.md. Our buyers are comparing us with two competitors. What content could help them decide?
 
-Or start from what you already have:
+<details>
+<summary><strong>More prompt examples</strong></summary>
 
-> We publish a blog, a newsletter and case studies. Map what they cover and where they could lead.
+**Explore existing content**
+
+> Here are our blog posts, newsletter issues and case studies: [attach the pieces or an inventory]. Map whom they serve, what they cover and how they could connect or be reused.
+
+**Narrow a result**
+
+> From the result we just explored, show only written formats on channels we own. Keep the full result so I can return to it.
+
+</details>
 
 <!-- Presentation-only files -->
 
@@ -100,6 +109,8 @@ The source is [knowledge/model/](knowledge/model/). Your agent interprets the re
 - [PROFILE.md](PROFILE.md) — capability, interfaces and boundaries.
 - [INVARIANTS.md](INVARIANTS.md) — the properties a result must preserve.
 - [Inputs](contracts/inputs.md) and [outputs](contracts/outputs.md) — request and result shapes.
+
+`make check` confirms that derived data is current and that the model's spreadsheets and Markdown match its JSON source. It reports differences; it does not regenerate those files.
 
 ```sh
 make check
