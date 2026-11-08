@@ -1,5 +1,8 @@
 <p align="center">
-  <img src=".github/readme/cover.svg" width="1200" alt="Content Atlas — see the possibilities, keep the choice. A conceptual view of people, content and connections.">
+  <picture>
+    <source media="(max-width: 640px)" srcset=".github/readme/cover-mobile.svg">
+    <img src=".github/readme/cover.svg" width="960" alt="Content Atlas — see the possibilities.">
+  </picture>
 </p>
 
 <h1 align="center">Content with a route.</h1>
@@ -10,14 +13,9 @@
 </p>
 
 <p align="center">
-  <strong>Free under MIT</strong> &nbsp;·&nbsp; 3 skills &nbsp;·&nbsp; Your own coding agent &nbsp;·&nbsp; JSON + Excel
-</p>
-
-<p align="center">
   <a href="#start">Start here</a> &nbsp; / &nbsp;
   <a href="#three-ways-in">Explore the skills</a> &nbsp; / &nbsp;
-  <a href="#inside-the-atlas">Look inside</a> &nbsp; / &nbsp;
-  <a href="https://www.leanos.tech/">LeanOS</a>
+  <a href="#inside-the-atlas">Look inside</a>
 </p>
 
 ---
@@ -30,28 +28,11 @@ Programs enumerate what the declared model holds for your question and check the
 
 ## Three ways in
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>01 · Resolve</h3>
-      <p><strong>What could we do?</strong></p>
-      <p>Bring a question. See the content constructions, links and checked routes the atlas holds for it.</p>
-      <a href=".claude/skills/resolve-possibilities/SKILL.md">Read the skill →</a>
-    </td>
-    <td width="33%" valign="top">
-      <h3>02 · Map</h3>
-      <p><strong>What do we already have?</strong></p>
-      <p>Place existing pieces, inspect their coverage and mismatches, and explore where they could lead.</p>
-      <a href=".claude/skills/map-existing-content/SKILL.md">Read the skill →</a>
-    </td>
-    <td width="33%" valign="top">
-      <h3>03 · Filter</h3>
-      <p><strong>Show me this part.</strong></p>
-      <p>Narrow a finished result by channel, format, ownership, audience or fit. Keep the original result.</p>
-      <a href=".claude/skills/filter-possibilities/SKILL.md">Read the skill →</a>
-    </td>
-  </tr>
-</table>
+| Your question | What you receive |
+| --- | --- |
+| [What could we do?](.claude/skills/resolve-possibilities/SKILL.md) | Content constructions, links and checked routes for your requirement. |
+| [What do we already have?](.claude/skills/map-existing-content/SKILL.md) | Placements, coverage and mismatches, with the possibilities that start from existing pieces. |
+| [Show me this part.](.claude/skills/filter-possibilities/SKILL.md) | A narrower result by channel, format, ownership, audience or fit, with the original kept. |
 
 ## Start
 
