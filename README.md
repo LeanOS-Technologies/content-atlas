@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(max-width: 640px)" srcset=".github/readme/cover-mobile.svg">
-    <img src=".github/readme/cover.svg" width="960" alt="Content Atlas — see the possibilities.">
-  </picture>
+  <img src=".github/readme/cover.gif" width="960" height="260" alt="Content Atlas — see the possibilities. Illustrative skill conversation: What could I create for buyers comparing us? Comparison page: explain the trade-offs. Case study: show a real result. ROI calculator: test their numbers.">
 </p>
 
 <h1 align="center">Content with a route.</h1>
