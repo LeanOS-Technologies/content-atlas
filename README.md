@@ -1,7 +1,3 @@
-<p align="center">
-  <img src=".github/readme/cover.gif" width="960" height="260" alt="Content Atlas — see the possibilities. Illustrative skill conversation: What could I create for buyers comparing us? Comparison page: explain the trade-offs. Case study: show a real result. ROI calculator: test their numbers.">
-</p>
-
 <h1 align="center">Content with a route.</h1>
 
 <p align="center">
@@ -63,7 +59,7 @@ Open your coding agent in the cloned folder and ask:
 <!-- Presentation-only files -->
 
 > [!TIP]
-> **Delete this README after cloning.** It is the GitHub marketing page, not part of the Content Atlas model. You can also delete `.github/readme/`, which contains only this page's artwork. Your agent starts at [AGENTS.md](AGENTS.md); [PROFILE.md](PROFILE.md) explains the capability. Keep [LICENSE](LICENSE).
+> **Delete this README after cloning.** It is the GitHub marketing page, not part of the Content Atlas model. Your agent starts at [AGENTS.md](AGENTS.md); [PROFILE.md](PROFILE.md) explains the capability. Keep [LICENSE](LICENSE).
 
 ## A result you can inspect and reuse
 
